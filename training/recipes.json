@@ -1,0 +1,362 @@
+[
+  {
+    "id": "Z001",
+    "entry": "sources/rk4_original/oai_weak3_20261018/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/Z001.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "rk4_original"
+  },
+  {
+    "id": "Z002",
+    "entry": "sources/gold31/bit_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/Z002.json",
+    "seed": 2027,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "RK4C_s2026",
+    "entry": "sources/gold40/bit_couple/runtime/scripts/train_squeeze.py",
+    "config": "configs/RK4C_s2026.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold40"
+  },
+  {
+    "id": "RK4C_s2027",
+    "entry": "sources/gold31/bit_couple/runtime/scripts/train_squeeze.py",
+    "config": "configs/RK4C_s2027.json",
+    "seed": 2027,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "T001",
+    "entry": "sources/gold31/bit_oai/runtime/scripts/train_resnet_n384.py",
+    "config": "configs/T001.json",
+    "seed": 2030,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "T002",
+    "entry": "sources/gold31/bit_oai/runtime/scripts/train_resnet_n384.py",
+    "config": "configs/T002.json",
+    "seed": 2031,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "T007",
+    "entry": "sources/gold31/bit_oai/runtime/scripts/train_resnet_n384.py",
+    "config": "configs/T007.json",
+    "seed": 2030,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "T008",
+    "entry": "sources/gold31/bit_oai/runtime/scripts/train_resnet_n384.py",
+    "config": "configs/T008.json",
+    "seed": 2031,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "T013",
+    "entry": "sources/gold11/t512_N/runtime/scripts/train_cnx_dino384.py",
+    "config": "configs/T013.json",
+    "seed": 2030,
+    "readout": "raw",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold11"
+  },
+  {
+    "id": "T019",
+    "entry": "sources/gold11/t512_R/runtime/scripts/train_cnx_dino384.py",
+    "config": "configs/T019.json",
+    "seed": 2030,
+    "readout": "raw",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold11"
+  },
+  {
+    "id": "T031",
+    "entry": "sources/gold11/t512_R/runtime/scripts/train_cnx_dino384.py",
+    "config": "configs/T031.json",
+    "seed": 2030,
+    "readout": "raw",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold11"
+  },
+  {
+    "id": "T032",
+    "entry": "sources/original/cnxdino_rank/runtime/scripts/train_cnx_dino384.py",
+    "config": "configs/T032.json",
+    "seed": 2031,
+    "readout": "raw",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "original"
+  },
+  {
+    "id": "M_bit224_N_k4000",
+    "entry": "sources/gold40/bit224_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/M_bit224_N_k4000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold40"
+  },
+  {
+    "id": "M_bito384_R_none",
+    "entry": "sources/gold40/bit_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/M_bito384_R_none.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold40"
+  },
+  {
+    "id": "M_bit384_N_k4000",
+    "entry": "sources/gold40/bit_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/M_bit384_N_k4000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold40"
+  },
+  {
+    "id": "M_bit512_R_k4000",
+    "entry": "sources/matrix/bit_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/M_bit512_R_k4000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "matrix"
+  },
+  {
+    "id": "M_bit512_N_k2000",
+    "entry": "sources/matrix/bit_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/M_bit512_N_k2000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "matrix"
+  },
+  {
+    "id": "FM_cnx_224_R_k2000",
+    "entry": "sources/gold31/cnx224_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_cnx_224_R_k2000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "FM_cnx_o384_N_none",
+    "entry": "sources/gold31/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_cnx_o384_N_none.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "FM_cnx_n384_R_k4000",
+    "entry": "sources/gold40/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_cnx_n384_R_k4000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold40"
+  },
+  {
+    "id": "FM_cnx_512_N_kall",
+    "entry": "sources/matrix/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_cnx_512_N_kall.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "matrix"
+  },
+  {
+    "id": "FM_cnx_n384_N_k2000",
+    "entry": "sources/gold40/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_cnx_n384_N_k2000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold40"
+  },
+  {
+    "id": "FM_dino_224_N_kall",
+    "entry": "sources/matrix/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_dino_224_N_kall.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "matrix"
+  },
+  {
+    "id": "FM_dino_o384_R_k2000",
+    "entry": "sources/gold31/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_dino_o384_R_k2000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "FM_dino_n384_N_k4000",
+    "entry": "sources/gold31/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_dino_n384_N_k4000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "FM_dino_512_R_none",
+    "entry": "sources/gold11/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_dino_512_R_none.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold11"
+  },
+  {
+    "id": "FM_dino_o384_R_kall",
+    "entry": "sources/matrix/cnxdino_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_dino_o384_R_kall.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "matrix"
+  },
+  {
+    "id": "FM_coat_224_R_none",
+    "entry": "sources/gold31/coat224_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_coat_224_R_none.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "FM_coat_o384_N_kall",
+    "entry": "sources/matrix/coat_c0_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_coat_o384_N_kall.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "matrix"
+  },
+  {
+    "id": "FM_coat_n384_R_k2000",
+    "entry": "sources/gold31/coat_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_coat_n384_R_k2000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "FM_coat_512_N_k4000",
+    "entry": "sources/matrix/coat_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_coat_512_N_k4000.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": false,
+    "epochs": 25,
+    "source_batch": "matrix"
+  },
+  {
+    "id": "FM_coat_n384_N_none",
+    "entry": "sources/gold31/coat_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/FM_coat_n384_N_none.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "Z003",
+    "entry": "sources/gold31/bit_oai/runtime/scripts/train_oai_pseudo.py",
+    "config": "configs/Z003.json",
+    "seed": 2028,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "RK4C_s2028",
+    "entry": "sources/gold31/bit_couple/runtime/scripts/train_squeeze.py",
+    "config": "configs/RK4C_s2028.json",
+    "seed": 2028,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  },
+  {
+    "id": "RK4C_lib_s2026",
+    "entry": "sources/gold40/bit_couple/runtime/scripts/train_squeeze.py",
+    "config": "configs/RK4C_lib_s2026.json",
+    "seed": 2026,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold40"
+  },
+  {
+    "id": "RK4C_lib_s2027",
+    "entry": "sources/gold31/bit_couple/runtime/scripts/train_squeeze.py",
+    "config": "configs/RK4C_lib_s2027.json",
+    "seed": 2027,
+    "readout": "ema0p999",
+    "gold_in_training": true,
+    "epochs": 25,
+    "source_batch": "gold31"
+  }
+]

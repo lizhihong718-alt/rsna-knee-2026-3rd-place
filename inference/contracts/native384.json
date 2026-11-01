@@ -1,0 +1,59 @@
+{
+  "preprocessing": {
+    "schema": "coatnet-original-neighbors-v1",
+    "window_semantics": "original_consecutive_source_slices",
+    "source_schema": 2,
+    "source_preprocess_signature": "557927481d2d96cda705051d7c67de67e6c0ed2acd7ca45fc1d131537653a755",
+    "source_processed_dir": "assets/asset_415bbb7c872d",
+    "source_train_csv_sha256": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33",
+    "slots": [
+      [
+        "sagittal_fluid_fs",
+        18,
+        0
+      ],
+      [
+        "sagittal_nonfluid",
+        14,
+        0
+      ],
+      [
+        "coronal_fluid_fs",
+        12,
+        1
+      ],
+      [
+        "coronal_nonfluid",
+        8,
+        1
+      ],
+      [
+        "axial_any",
+        12,
+        2
+      ]
+    ],
+    "span": [
+      0.06,
+      0.94
+    ],
+    "image": 384,
+    "neighbor_gap_ratio": 1.8,
+    "crop_fov_mm": 140.0,
+    "crop_stage": "raw_dicom_composed_legacy_fov_single_resample",
+    "source_orientation": "patient_space_laterality_normalized",
+    "source_corpus_manifest_sha256": "9ce863ef26ec905295f0ed6ed872e6e61ff29910a2fb46c4119633ef841a0297",
+    "raw_meta_sha256": "1601ff2925f84aa191c8340e78c08a74291152013c436a081a5cbb45693a0aba",
+    "builder_sha256": "18bb4419d0e0b19bde2085af989b40dc2bfb7c92e6f70f33f951f6ca3ca758a8",
+    "native_crop_sha256": "e751252086fb48deae97b7c08aca876dd01aa5f111f30a893eabd89716a4fa0d",
+    "resize_interpolation": "auto_area_down_linear_up",
+    "spatial_resample_count": 1,
+    "intensity_statistics": "frozen_legacy_full384_per_series_lo_hi",
+    "boundary_rounding": "nearest_source_pixel_max_half_pixel",
+    "storage_dtype": "uint8",
+    "storage_value_range": [
+      0,
+      255
+    ]
+  }
+}

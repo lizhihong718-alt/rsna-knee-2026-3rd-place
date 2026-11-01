@@ -1,0 +1,131 @@
+seed: 2026
+study_root: data/test_series
+series_table: data/test_series.csv
+meta_cache: data/meta/slice_meta_test.parquet
+output_dir: data/processed/test_v2
+blacklist: []
+slots:
+  definitions:
+    sagittal_fluid_fs:
+    - plane: Sagittal
+      fluid_sensitive: 1
+    coronal_fluid_fs:
+    - plane: Coronal
+      fluid_sensitive: 1
+    axial_fluid_fs:
+    - plane: Axial
+      fluid_sensitive: 1
+    sagittal_nonfluid:
+    - plane: Sagittal
+      fluid_sensitive: 0
+    coronal_nonfluid:
+    - plane: Coronal
+      fluid_sensitive: 0
+    axial_nonfluid:
+    - plane: Axial
+      fluid_sensitive: 0
+  selection:
+    metadata_completeness:
+      weight: 2.0
+      geometry: 0.5
+      thickness: 0.2
+      spacing_between: 0.2
+      sequence_meta: 0.1
+    orientation_purity:
+      weight: 2.0
+    slice_count:
+      weight: 1.0
+      reference: 30
+    coverage_mm:
+      weight: 1.0
+      reference: 150
+    in_plane_resolution:
+      weight: 1.0
+      reference_mm: 0.4
+    sequence_suitability:
+      weight: 1.0
+  k_series_per_slot: 2
+geometry:
+  fallbacks:
+  - instance_number
+  - slice_location
+  max_normal_deviation_deg: 5.0
+  duplicate_z_tol_mm: 0.05
+  min_slices: 2
+laterality:
+  normalize: true
+  target: lateral
+  min_axis_alignment: 0.5
+preprocessing:
+  crop_fov_mm: 150
+  output_size: 384
+  intensity_percentile_low: 1
+  intensity_percentile_high: 99
+  intensity_over: foreground
+  resize_interpolation: auto
+  crop_mode: full
+sampling:
+  mode: uniform_index
+  slices_per_slot: 32
+  extent_mm: null
+  neighbor_offsets:
+  - -1
+  - 0
+  - 1
+  pad_mode: edge
+output:
+  dtype: uint8
+  compression: null
+  include_metadata_json: true
+dataset:
+  processed_dir: data/processed/test_v2
+  labels_csv: ''
+  resize_to: 320
+  max_series_per_slot: null
+  cache_dir: data/cache/dino_vits_test_v2
+  centers_per_series: 24
+  max_series_per_study: 6
+  augment: false
+  require_schema: 2
+  train_csv: ''
+model:
+  slice_context: 3
+  encoder:
+    name: timm
+    backbone_name: vit_small_patch16_dinov3
+    pretrained: true
+    freeze_backbone: true
+    unfreeze_last_n_blocks: 0
+    image_size: 320
+    weights: data/kaggle_bundle/dinov3_vits_statedict.pth
+  d_model: 384
+  positional: fourier
+  fourier_bands: 16
+  series_transformer:
+    layers: 2
+    heads: 8
+    dropout: 0.1
+  study_tokens:
+    mode: b
+  pathology_decoder:
+    num_queries: 12
+    layers: 2
+    heads: 8
+    dropout: 0.1
+    query_self_attention: false
+  ff_mult: 4
+  n_pathologies: 12
+  architecture: patch_query
+  encode_chunk_size: 24
+  checkpoint_encoder: true
+  spatial_layers: 1
+  global_residual: true
+loss:
+  gold_weight: 1.0
+  pseudo_default_weight: 0.7
+  lambda_rank: 0.0
+cv:
+  type: group
+  folds: 5
+  group_column: report_hash
+  seed: 2026

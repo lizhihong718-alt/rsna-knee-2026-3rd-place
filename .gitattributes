@@ -1,0 +1,2 @@
+# Frozen runtime hashes must survive checkout on Windows and Linux.
+* -text

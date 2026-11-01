@@ -1,0 +1,101 @@
+{
+  "note": "R2X51 family GPU assignment and CoAt chunks; original manifest order; all36 every study, no rounds/trimming. J_coat384 on GPU1 balances G36 cost; no model or formula changes.",
+  "workers": [
+    {
+      "name": "A_bit",
+      "family": "A",
+      "gpu": 0,
+      "members": [
+        "Z001",
+        "Z002",
+        "RK4C_s2026",
+        "RK4C_s2027",
+        "T001",
+        "T002",
+        "T007",
+        "T008",
+        "M_bit224_N_k4000",
+        "M_bito384_R_none",
+        "M_bit384_N_k4000",
+        "Z003",
+        "RK4C_s2028",
+        "RK4C_lib_s2026",
+        "RK4C_lib_s2027"
+      ]
+    },
+    {
+      "name": "C_cnx",
+      "family": "C",
+      "gpu": 1,
+      "members": [
+        "T013",
+        "T019",
+        "FM_cnx_224_R_k2000",
+        "FM_cnx_o384_N_none",
+        "FM_cnx_n384_R_k4000",
+        "FM_cnx_512_N_kall",
+        "FM_cnx_n384_N_k2000"
+      ]
+    },
+    {
+      "name": "C_dino",
+      "family": "C",
+      "gpu": 0,
+      "members": [
+        "T031",
+        "T032",
+        "FM_dino_224_N_kall",
+        "FM_dino_o384_R_k2000",
+        "FM_dino_n384_N_k4000",
+        "FM_dino_512_R_none",
+        "FM_dino_o384_R_kall"
+      ]
+    },
+    {
+      "name": "A_bit512",
+      "family": "A",
+      "gpu": 1,
+      "members": [
+        "M_bit512_R_k4000",
+        "M_bit512_N_k2000"
+      ]
+    },
+    {
+      "name": "N_coat224",
+      "family": "N",
+      "gpu": 0,
+      "members": [
+        "FM_coat_224_R_none"
+      ],
+      "chunk": 8
+    },
+    {
+      "name": "K_c0",
+      "family": "K",
+      "gpu": 1,
+      "members": [
+        "FM_coat_o384_N_kall"
+      ],
+      "chunk": 8
+    },
+    {
+      "name": "J_coat384",
+      "family": "J",
+      "gpu": 1,
+      "members": [
+        "FM_coat_n384_R_k2000",
+        "FM_coat_n384_N_none"
+      ],
+      "chunk": 4
+    },
+    {
+      "name": "J_coat512",
+      "family": "J",
+      "gpu": 1,
+      "members": [
+        "FM_coat_512_N_k4000"
+      ],
+      "chunk": 4
+    }
+  ]
+}

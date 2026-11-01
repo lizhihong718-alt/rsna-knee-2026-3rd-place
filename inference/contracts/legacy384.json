@@ -1,0 +1,46 @@
+{
+  "preprocessing": {
+    "schema": "coatnet-original-neighbors-v1",
+    "window_semantics": "original_consecutive_source_slices",
+    "source_schema": 2,
+    "source_preprocess_signature": "557927481d2d96cda705051d7c67de67e6c0ed2acd7ca45fc1d131537653a755",
+    "source_processed_dir": "assets/asset_415bbb7c872d",
+    "source_train_csv_sha256": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33",
+    "slots": [
+      [
+        "sagittal_fluid_fs",
+        18,
+        0
+      ],
+      [
+        "sagittal_nonfluid",
+        14,
+        0
+      ],
+      [
+        "coronal_fluid_fs",
+        12,
+        1
+      ],
+      [
+        "coronal_nonfluid",
+        8,
+        1
+      ],
+      [
+        "axial_any",
+        12,
+        2
+      ]
+    ],
+    "span": [
+      0.06,
+      0.94
+    ],
+    "image": 384,
+    "neighbor_gap_ratio": 1.8,
+    "crop_fov_mm": 140.0,
+    "crop_stage": "after_patient_space_orientation_before_model_resize",
+    "source_orientation": "patient_space_laterality_normalized"
+  }
+}

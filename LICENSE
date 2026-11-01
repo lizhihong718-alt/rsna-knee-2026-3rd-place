@@ -1,0 +1,13 @@
+DataTech Club's original competition solution code and fine-tuned model contributions
+are licensed under Creative Commons Attribution-NonCommercial 4.0 International
+(CC-BY-NC-4.0), as specified by the RSNA Knee Abnormality Detection 2026 winner rules.
+
+License text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Copyright 2026 DataTech Club solution authors: Zhengru Li, Zhihong Li, Bufan Li,
+Guoqin Gu, and Mutian Hong.
+
+Third-party software and pretrained model components retain their respective
+licenses. In particular, DINOv3 components and derivatives are subject to the
+DINOv3 License supplied in licenses/DINOv3_LICENSE.md. This license notice does
+not relicense third-party materials or grant rights to the competition or OAI data.

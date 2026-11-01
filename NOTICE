@@ -1,0 +1,13 @@
+This release preserves source attribution to Dread Development / Johnathan Wagner,
+Knee MRI: twelve findings from a single model, Kaggle notebook version 7.
+https://www.kaggle.com/code/dreaddevelopment/knee-mri-twelve-findings-from-a-single-model
+The upstream notebook states Apache License 2.0. Adapted modules retain their
+upstream attribution headers. The Apache 2.0 text is supplied in licenses/timm_LICENSE.
+
+PyTorch Image Models (timm), Copyright Ross Wightman and contributors, Apache-2.0.
+https://github.com/huggingface/pytorch-image-models
+
+DINOv3 code and pretrained-model derivatives retain the DINOv3 License.
+https://github.com/facebookresearch/dinov3
+
+No upstream author, RSNA, NIH, NDA or OAI endorsement is implied.

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+*.dcm
+*.csv
+*.log
+assets/
+outputs/
+weights/
+paths.local.json

@@ -1,0 +1,642 @@
+{
+  "asset_415bbb7c872d": {
+    "key": "asset_415bbb7c872d",
+    "basename": "train_v2",
+    "kind": "directory"
+  },
+  "asset_dfa8ae8643db": {
+    "key": "asset_dfa8ae8643db",
+    "basename": "native384_crop140",
+    "kind": "directory"
+  },
+  "asset_28a1230d0354": {
+    "key": "asset_28a1230d0354",
+    "basename": "rankmapped.csv",
+    "kind": "file",
+    "sha256": "f20ccc700cbb6c26af760ab50b9b8e72d1a5c2234f64646b57abcb4988399b0f"
+  },
+  "asset_0f3b95555893": {
+    "key": "asset_0f3b95555893",
+    "basename": "train.csv",
+    "kind": "file",
+    "sha256": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33"
+  },
+  "asset_4df2f50d49e0": {
+    "key": "asset_4df2f50d49e0",
+    "basename": "folds.csv",
+    "kind": "file",
+    "sha256": "47ce947c319299644c697cc4d811d0a69ab9d4692ee6b99584d5281b190d23b2"
+  },
+  "asset_c4bf5fb13ee5": {
+    "key": "asset_c4bf5fb13ee5",
+    "basename": "model.safetensors",
+    "kind": "file",
+    "sha256": "04687d0e44324a1f162e5346a021fb0c5e927b3e515b8ae300096b818ac711fe"
+  },
+  "asset_0157a77a8b6f": {
+    "key": "asset_0157a77a8b6f",
+    "basename": "E1_rankmapped.json",
+    "kind": "file",
+    "sha256": "154b2403af53e97eb53948325c7e41542d6c0b2854004eba1212a7610fddd513"
+  },
+  "asset_6b075cea5c23": {
+    "key": "asset_6b075cea5c23",
+    "basename": "orientation_full.npz",
+    "kind": "file",
+    "sha256": "0fb554170af7c701c77817eed8f6854eb137117e34b90bde7b6abc9abdc24fdc"
+  },
+  "asset_22267debbc7d": {
+    "key": "asset_22267debbc7d",
+    "basename": "oai_teacher_native384_index",
+    "kind": "directory"
+  },
+  "asset_3ce88af40699": {
+    "key": "asset_3ce88af40699",
+    "basename": "v3kd50_labels.csv",
+    "kind": "file",
+    "sha256": "b246ebd7a55ba9a4b9070db18aec71c3a75a2c00204310426e969f244643d6d0"
+  },
+  "asset_5f4314410792": {
+    "key": "asset_5f4314410792",
+    "basename": "v3kd50_weights.csv",
+    "kind": "file",
+    "sha256": "072aa9623b602e833960fefcdb29235337298ab742f31ecea7e60801e16e6f84"
+  },
+  "asset_5dd0bd6b71b6": {
+    "key": "asset_5dd0bd6b71b6",
+    "basename": "native224_crop140",
+    "kind": "directory"
+  },
+  "asset_0c3293abaf39": {
+    "key": "asset_0c3293abaf39",
+    "basename": "labels.csv",
+    "kind": "file",
+    "sha256": "3df1e2f283048f65d6b19cd3d854f53bba39380a7509d13ed3c4fa46ca17abac"
+  },
+  "asset_0373a6ffaa4e": {
+    "key": "asset_0373a6ffaa4e",
+    "basename": "supervision_manifest_pf0959.json",
+    "kind": "file",
+    "sha256": "de817c40f0c8c9aba00d411eb3f81cdc12306d068336d9fe988c4cee9f0c366a"
+  },
+  "asset_f644ae0164c3": {
+    "key": "asset_f644ae0164c3",
+    "basename": "oai_native224_index",
+    "kind": "directory"
+  },
+  "asset_d22b10f80d57": {
+    "key": "asset_d22b10f80d57",
+    "basename": "coatnet_original384_crop140",
+    "kind": "directory"
+  },
+  "asset_a5ea00647fac": {
+    "key": "asset_a5ea00647fac",
+    "basename": "resnet_native512_crop140",
+    "kind": "directory"
+  },
+  "asset_b3e3c6e81700": {
+    "key": "asset_b3e3c6e81700",
+    "basename": "oai_native512_index",
+    "kind": "directory"
+  },
+  "asset_10ea1228701e": {
+    "key": "asset_10ea1228701e",
+    "basename": "convnext_small.in12k_ft_in1k.safetensors",
+    "kind": "file",
+    "sha256": "eb6f6171daa484fac5e74c28cba90de9328939c03ee96d7e163a0c421898280e"
+  },
+  "asset_376cf5d1d2a0": {
+    "key": "asset_376cf5d1d2a0",
+    "basename": "vit_base_patch16_dinov3.lvd1689m.safetensors",
+    "kind": "file",
+    "sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332"
+  },
+  "asset_08129c5bf240": {
+    "key": "asset_08129c5bf240",
+    "basename": "model.safetensors",
+    "kind": "file",
+    "sha256": "91570c7af10fea0af03c1b0a49be3e4775596239890eb4193c75129b3045623e"
+  },
+  "asset_eb9271cbb41e": {
+    "key": "asset_eb9271cbb41e",
+    "basename": "labels.csv",
+    "kind": "file",
+    "sha256": "3df1e2f283048f65d6b19cd3d854f53bba39380a7509d13ed3c4fa46ca17abac"
+  },
+  "asset_fc79019d5f9b": {
+    "key": "asset_fc79019d5f9b",
+    "basename": "best.pt",
+    "kind": "file",
+    "sha256": "cea7877eb0caa5620cab0a04856092a04323df094a68a7c5e067f17f9a7b65af"
+  },
+  "asset_529990d1bd17": {
+    "key": "asset_529990d1bd17",
+    "basename": "manifest.json",
+    "kind": "file",
+    "sha256": "77008ed6ef34f3c12a217e23cbfeb3119025c00d7b8fcd0a8ae843ae5b7cd163"
+  },
+  "asset_b5e823d0267c": {
+    "key": "asset_b5e823d0267c",
+    "basename": "v3kd50_lib_pfw3_labels.csv",
+    "kind": "file",
+    "sha256": "04d8ef87921d89b3edac77f6a0a71ab002a5d0823a456aa64c5efae475f7ab37"
+  },
+  "asset_4856c94dc476": {
+    "key": "asset_4856c94dc476",
+    "basename": "v3kd50_lib_pfw3_weights.csv",
+    "kind": "file",
+    "sha256": "be2770e3d635f4b5ed763138327f8e6f66cf7bc9881eead1d53f9f9254bd9e7e"
+  },
+  "gold31_A102": {
+    "kind": "private_support",
+    "filename": "v3kd50_weights.csv",
+    "sha256": "072aa9623b602e833960fefcdb29235337298ab742f31ecea7e60801e16e6f84",
+    "bytes": 811971,
+    "purpose": "OAI kd50 cell weights (oai_weights_csv)"
+  },
+  "gold31_A004": {
+    "kind": "private_support",
+    "filename": "folds.csv",
+    "sha256": "47ce947c319299644c697cc4d811d0a69ab9d4692ee6b99584d5281b190d23b2",
+    "bytes": 440728
+  },
+  "gold31_A001": {
+    "kind": "cache",
+    "filename": "native384_crop140",
+    "manifest_sha256": "e3325f67c5a3d2a9ec4b5837e27e5c628a6223a0561c830d9647f12facc8f282",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "gold31_A005": {
+    "kind": "public_weight",
+    "filename": "model.safetensors",
+    "sha256": "04687d0e44324a1f162e5346a021fb0c5e927b3e515b8ae300096b818ac711fe",
+    "bytes": 102212646
+  },
+  "gold31_A101": {
+    "kind": "private_support",
+    "filename": "v3kd50_labels.csv",
+    "sha256": "b246ebd7a55ba9a4b9070db18aec71c3a75a2c00204310426e969f244643d6d0",
+    "bytes": 1151811,
+    "purpose": "OAI kd50 targets (oai_labels_csv)"
+  },
+  "gold31_A009": {
+    "kind": "private_support",
+    "filename": "E1_rankmapped.json",
+    "sha256": "154b2403af53e97eb53948325c7e41542d6c0b2854004eba1212a7610fddd513",
+    "bytes": 318377
+  },
+  "gold31_A007": {
+    "kind": "private_support",
+    "filename": "orientation_full.npz",
+    "sha256": "0fb554170af7c701c77817eed8f6854eb137117e34b90bde7b6abc9abdc24fdc",
+    "bytes": 3103786
+  },
+  "gold31_A026": {
+    "kind": "cache",
+    "filename": "oai_teacher_native384_index",
+    "manifest_sha256": "52ab8986147cb3207ad8e4466d35f9c8ea7e0235c0a398f7003c0cd8e9e113c1",
+    "row_count": 9440,
+    "ordered_ids_sha256": "f59dc7723a0f40ca09acd3d032da2d46bbbe441f55e4572797aa88737c750d4a"
+  },
+  "gold31_A003": {
+    "kind": "private_support",
+    "filename": "train.csv",
+    "sha256": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33",
+    "bytes": 5690007
+  },
+  "gold31_A008": {
+    "kind": "private_support",
+    "filename": "rankmapped.csv",
+    "sha256": "f20ccc700cbb6c26af760ab50b9b8e72d1a5c2234f64646b57abcb4988399b0f",
+    "bytes": 583272
+  },
+  "gold40_A102": {
+    "kind": "private_support",
+    "filename": "v3kd50_weights.csv",
+    "sha256": "072aa9623b602e833960fefcdb29235337298ab742f31ecea7e60801e16e6f84",
+    "bytes": 811971,
+    "purpose": "OAI kd50 cell weights (oai_weights_csv)"
+  },
+  "gold40_A004": {
+    "kind": "private_support",
+    "filename": "folds.csv",
+    "sha256": "47ce947c319299644c697cc4d811d0a69ab9d4692ee6b99584d5281b190d23b2",
+    "bytes": 440728
+  },
+  "gold40_A001": {
+    "kind": "cache",
+    "filename": "native384_crop140",
+    "manifest_sha256": "e3325f67c5a3d2a9ec4b5837e27e5c628a6223a0561c830d9647f12facc8f282",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "gold40_A005": {
+    "kind": "public_weight",
+    "filename": "model.safetensors",
+    "sha256": "04687d0e44324a1f162e5346a021fb0c5e927b3e515b8ae300096b818ac711fe",
+    "bytes": 102212646
+  },
+  "gold40_A101": {
+    "kind": "private_support",
+    "filename": "v3kd50_labels.csv",
+    "sha256": "b246ebd7a55ba9a4b9070db18aec71c3a75a2c00204310426e969f244643d6d0",
+    "bytes": 1151811,
+    "purpose": "OAI kd50 targets (oai_labels_csv)"
+  },
+  "gold40_A009": {
+    "kind": "private_support",
+    "filename": "E1_rankmapped.json",
+    "sha256": "154b2403af53e97eb53948325c7e41542d6c0b2854004eba1212a7610fddd513",
+    "bytes": 318377
+  },
+  "gold40_A206": {
+    "kind": "private_support",
+    "filename": "native_lambda.json",
+    "sha256": "89ddebbdeb2901964bb9a5db92b241f42b2e29564a28cfff5142a5982fdef45f",
+    "bytes": 338,
+    "note": "frozen auxiliary loss weight lambda (.608), read-only"
+  },
+  "gold40_A031": {
+    "kind": "private_support",
+    "filename": "v2s_weights.csv",
+    "sha256": "aa8f44c31479c178f4f62fe6226064dce8ffff0bdb49532b6cd2974f50fdf79e",
+    "bytes": 371635
+  },
+  "gold40_A007": {
+    "kind": "private_support",
+    "filename": "orientation_full.npz",
+    "sha256": "0fb554170af7c701c77817eed8f6854eb137117e34b90bde7b6abc9abdc24fdc",
+    "bytes": 3103786
+  },
+  "gold40_A030": {
+    "kind": "private_support",
+    "filename": "v2s_labels.csv",
+    "sha256": "acf1bc47b3eb32a59a430ad94d5dea2e301d8e60405763ff7fb4cd8ffa028c89",
+    "bytes": 207817
+  },
+  "gold40_A026": {
+    "kind": "cache",
+    "filename": "oai_teacher_native384_index",
+    "manifest_sha256": "52ab8986147cb3207ad8e4466d35f9c8ea7e0235c0a398f7003c0cd8e9e113c1",
+    "row_count": 9440,
+    "ordered_ids_sha256": "f59dc7723a0f40ca09acd3d032da2d46bbbe441f55e4572797aa88737c750d4a"
+  },
+  "gold40_A205": {
+    "kind": "private_support",
+    "filename": "native14_af.npz",
+    "sha256": "902ce77f932c1bf7728981d4251a84ba401bc2771b524df9590e85c745b303e5",
+    "bytes": 33340,
+    "note": "MOAKS native auxiliary targets (OAI knees only), N3 / coupling arms"
+  },
+  "gold40_A003": {
+    "kind": "private_support",
+    "filename": "train.csv",
+    "sha256": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33",
+    "bytes": 5690007
+  },
+  "gold40_A008": {
+    "kind": "private_support",
+    "filename": "rankmapped.csv",
+    "sha256": "f20ccc700cbb6c26af760ab50b9b8e72d1a5c2234f64646b57abcb4988399b0f",
+    "bytes": 583272
+  },
+  "gold31_A206": {
+    "kind": "private_support",
+    "filename": "native_lambda.json",
+    "sha256": "89ddebbdeb2901964bb9a5db92b241f42b2e29564a28cfff5142a5982fdef45f",
+    "bytes": 338,
+    "note": "frozen auxiliary loss weight lambda (.608), read-only"
+  },
+  "gold31_A031": {
+    "kind": "private_support",
+    "filename": "v2s_weights.csv",
+    "sha256": "aa8f44c31479c178f4f62fe6226064dce8ffff0bdb49532b6cd2974f50fdf79e",
+    "bytes": 371635
+  },
+  "gold31_A030": {
+    "kind": "private_support",
+    "filename": "v2s_labels.csv",
+    "sha256": "acf1bc47b3eb32a59a430ad94d5dea2e301d8e60405763ff7fb4cd8ffa028c89",
+    "bytes": 207817
+  },
+  "gold31_A205": {
+    "kind": "private_support",
+    "filename": "native14_af.npz",
+    "sha256": "902ce77f932c1bf7728981d4251a84ba401bc2771b524df9590e85c745b303e5",
+    "bytes": 33340,
+    "note": "MOAKS native auxiliary targets (OAI knees only), N3 / coupling arms"
+  },
+  "gold31_A002": {
+    "kind": "private_support",
+    "filename": "labels.csv",
+    "sha256": "3df1e2f283048f65d6b19cd3d854f53bba39380a7509d13ed3c4fa46ca17abac",
+    "bytes": 581608
+  },
+  "gold31_A006": {
+    "kind": "private_support",
+    "filename": "supervision_manifest_pf0959.json",
+    "sha256": "de817c40f0c8c9aba00d411eb3f81cdc12306d068336d9fe988c4cee9f0c366a",
+    "bytes": 309570
+  },
+  "original_A012": {
+    "kind": "public_weight",
+    "filename": "vit_base_patch16_dinov3.lvd1689m.safetensors",
+    "sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+    "bytes": 342579728
+  },
+  "original_A004": {
+    "kind": "private_support",
+    "filename": "folds.csv",
+    "sha256": "47ce947c319299644c697cc4d811d0a69ab9d4692ee6b99584d5281b190d23b2",
+    "bytes": 440728
+  },
+  "original_A010": {
+    "kind": "cache",
+    "filename": "resnet_native512_crop140",
+    "manifest_sha256": "8c7927b11487832cb94b614a3382eeb1c68c527199d139d62c3044749a9e6dea",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "original_A009": {
+    "kind": "private_support",
+    "filename": "E1_rankmapped.json",
+    "sha256": "154b2403af53e97eb53948325c7e41542d6c0b2854004eba1212a7610fddd513",
+    "bytes": 318377
+  },
+  "original_A007": {
+    "kind": "private_support",
+    "filename": "orientation_full.npz",
+    "sha256": "0fb554170af7c701c77817eed8f6854eb137117e34b90bde7b6abc9abdc24fdc",
+    "bytes": 3103786
+  },
+  "original_A003": {
+    "kind": "private_support",
+    "filename": "train.csv",
+    "sha256": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33",
+    "bytes": 5690007
+  },
+  "original_A008": {
+    "kind": "private_support",
+    "filename": "rankmapped.csv",
+    "sha256": "f20ccc700cbb6c26af760ab50b9b8e72d1a5c2234f64646b57abcb4988399b0f",
+    "bytes": 583272
+  },
+  "gold40_A021": {
+    "kind": "cache",
+    "filename": "native224_crop140",
+    "manifest_sha256": "c45b2f54b4cc15014fc0d43bb0bd8948a53b8c58332b076be62cbee7fba6f40f",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "gold40_A002": {
+    "kind": "private_support",
+    "filename": "labels.csv",
+    "sha256": "3df1e2f283048f65d6b19cd3d854f53bba39380a7509d13ed3c4fa46ca17abac",
+    "bytes": 581608
+  },
+  "gold40_A103": {
+    "kind": "cache",
+    "filename": "oai_native224_index",
+    "manifest_sha256": "d8202389ff13a9e9e2a2e6214decc454d0fd6823d4f9927595c7d558b638b12d",
+    "row_count": 9440,
+    "ordered_ids_sha256": "f59dc7723a0f40ca09acd3d032da2d46bbbe441f55e4572797aa88737c750d4a",
+    "purpose": "OAI native224 single-resample index (oai_index @224)"
+  },
+  "gold40_A006": {
+    "kind": "private_support",
+    "filename": "supervision_manifest_pf0959.json",
+    "sha256": "de817c40f0c8c9aba00d411eb3f81cdc12306d068336d9fe988c4cee9f0c366a",
+    "bytes": 309570
+  },
+  "gold40_A014": {
+    "kind": "cache",
+    "filename": "coatnet_original384_crop140",
+    "manifest_sha256": "9ce863ef26ec905295f0ed6ed872e6e61ff29910a2fb46c4119633ef841a0297",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "matrix_A102": {
+    "kind": "private_support",
+    "filename": "v3kd50_weights.csv",
+    "sha256": "072aa9623b602e833960fefcdb29235337298ab742f31ecea7e60801e16e6f84",
+    "bytes": 811971,
+    "purpose": "OAI kd50 cell weights (oai_weights_csv)"
+  },
+  "matrix_A004": {
+    "kind": "private_support",
+    "filename": "folds.csv",
+    "sha256": "47ce947c319299644c697cc4d811d0a69ab9d4692ee6b99584d5281b190d23b2",
+    "bytes": 440728
+  },
+  "matrix_A010": {
+    "kind": "cache",
+    "filename": "resnet_native512_crop140",
+    "manifest_sha256": "8c7927b11487832cb94b614a3382eeb1c68c527199d139d62c3044749a9e6dea",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "matrix_A005": {
+    "kind": "public_weight",
+    "filename": "model.safetensors",
+    "sha256": "04687d0e44324a1f162e5346a021fb0c5e927b3e515b8ae300096b818ac711fe",
+    "bytes": 102212646
+  },
+  "matrix_A101": {
+    "kind": "private_support",
+    "filename": "v3kd50_labels.csv",
+    "sha256": "b246ebd7a55ba9a4b9070db18aec71c3a75a2c00204310426e969f244643d6d0",
+    "bytes": 1151811,
+    "purpose": "OAI kd50 targets (oai_labels_csv)"
+  },
+  "matrix_A009": {
+    "kind": "private_support",
+    "filename": "E1_rankmapped.json",
+    "sha256": "154b2403af53e97eb53948325c7e41542d6c0b2854004eba1212a7610fddd513",
+    "bytes": 318377
+  },
+  "matrix_A007": {
+    "kind": "private_support",
+    "filename": "orientation_full.npz",
+    "sha256": "0fb554170af7c701c77817eed8f6854eb137117e34b90bde7b6abc9abdc24fdc",
+    "bytes": 3103786
+  },
+  "matrix_A104": {
+    "kind": "cache",
+    "filename": "oai_native512_index",
+    "manifest_sha256": "cc82892f0b54a8e353115d80a70a32f6646546149ec8782c75ff199738474ae1",
+    "row_count": 9440,
+    "ordered_ids_sha256": "f59dc7723a0f40ca09acd3d032da2d46bbbe441f55e4572797aa88737c750d4a",
+    "purpose": "OAI native512 single-resample index (oai_index @512)"
+  },
+  "matrix_A003": {
+    "kind": "private_support",
+    "filename": "train.csv",
+    "sha256": "8ca2203c0e9d61c080c7a314c7cdb51c1b03a1d9eb4770819f7f34af53ef4e33",
+    "bytes": 5690007
+  },
+  "matrix_A008": {
+    "kind": "private_support",
+    "filename": "rankmapped.csv",
+    "sha256": "f20ccc700cbb6c26af760ab50b9b8e72d1a5c2234f64646b57abcb4988399b0f",
+    "bytes": 583272
+  },
+  "matrix_A002": {
+    "kind": "private_support",
+    "filename": "labels.csv",
+    "sha256": "3df1e2f283048f65d6b19cd3d854f53bba39380a7509d13ed3c4fa46ca17abac",
+    "bytes": 581608
+  },
+  "matrix_A006": {
+    "kind": "private_support",
+    "filename": "supervision_manifest_pf0959.json",
+    "sha256": "de817c40f0c8c9aba00d411eb3f81cdc12306d068336d9fe988c4cee9f0c366a",
+    "bytes": 309570
+  },
+  "gold31_A021": {
+    "kind": "cache",
+    "filename": "native224_crop140",
+    "manifest_sha256": "c45b2f54b4cc15014fc0d43bb0bd8948a53b8c58332b076be62cbee7fba6f40f",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "gold31_A103": {
+    "kind": "cache",
+    "filename": "oai_native224_index",
+    "manifest_sha256": "d8202389ff13a9e9e2a2e6214decc454d0fd6823d4f9927595c7d558b638b12d",
+    "row_count": 9440,
+    "ordered_ids_sha256": "f59dc7723a0f40ca09acd3d032da2d46bbbe441f55e4572797aa88737c750d4a",
+    "purpose": "OAI native224 single-resample index (oai_index @224)"
+  },
+  "gold31_A011": {
+    "kind": "public_weight",
+    "filename": "convnext_small.in12k_ft_in1k.safetensors",
+    "sha256": "eb6f6171daa484fac5e74c28cba90de9328939c03ee96d7e163a0c421898280e",
+    "bytes": 200928946
+  },
+  "gold31_A014": {
+    "kind": "cache",
+    "filename": "coatnet_original384_crop140",
+    "manifest_sha256": "9ce863ef26ec905295f0ed6ed872e6e61ff29910a2fb46c4119633ef841a0297",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "gold40_A011": {
+    "kind": "public_weight",
+    "filename": "convnext_small.in12k_ft_in1k.safetensors",
+    "sha256": "eb6f6171daa484fac5e74c28cba90de9328939c03ee96d7e163a0c421898280e",
+    "bytes": 200928946
+  },
+  "matrix_A011": {
+    "kind": "public_weight",
+    "filename": "convnext_small.in12k_ft_in1k.safetensors",
+    "sha256": "eb6f6171daa484fac5e74c28cba90de9328939c03ee96d7e163a0c421898280e",
+    "bytes": 200928946
+  },
+  "matrix_A021": {
+    "kind": "cache",
+    "filename": "native224_crop140",
+    "manifest_sha256": "c45b2f54b4cc15014fc0d43bb0bd8948a53b8c58332b076be62cbee7fba6f40f",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "matrix_A012": {
+    "kind": "public_weight",
+    "filename": "vit_base_patch16_dinov3.lvd1689m.safetensors",
+    "sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+    "bytes": 342579728
+  },
+  "matrix_A103": {
+    "kind": "cache",
+    "filename": "oai_native224_index",
+    "manifest_sha256": "d8202389ff13a9e9e2a2e6214decc454d0fd6823d4f9927595c7d558b638b12d",
+    "row_count": 9440,
+    "ordered_ids_sha256": "f59dc7723a0f40ca09acd3d032da2d46bbbe441f55e4572797aa88737c750d4a",
+    "purpose": "OAI native224 single-resample index (oai_index @224)"
+  },
+  "gold31_A012": {
+    "kind": "public_weight",
+    "filename": "vit_base_patch16_dinov3.lvd1689m.safetensors",
+    "sha256": "1f9ed8a2378d65e24bb710ba522ac9fa7be4e036d7aefb4384ce022833926332",
+    "bytes": 342579728
+  },
+  "matrix_A014": {
+    "kind": "cache",
+    "filename": "coatnet_original384_crop140",
+    "manifest_sha256": "9ce863ef26ec905295f0ed6ed872e6e61ff29910a2fb46c4119633ef841a0297",
+    "row_count": 4407,
+    "ordered_ids_sha256": "21c1944bd15c3397290f0816de614ad4153f62e84c4bfb0e4d6147ac72084af8"
+  },
+  "matrix_A026": {
+    "kind": "cache",
+    "filename": "oai_teacher_native384_index",
+    "manifest_sha256": "52ab8986147cb3207ad8e4466d35f9c8ea7e0235c0a398f7003c0cd8e9e113c1",
+    "row_count": 9440,
+    "ordered_ids_sha256": "f59dc7723a0f40ca09acd3d032da2d46bbbe441f55e4572797aa88737c750d4a"
+  },
+  "gold31_A105": {
+    "kind": "public_weight",
+    "filename": "model.safetensors",
+    "sha256": "8558fd38c0c67be0425f3ca19752a7baa4356314940fa4954633a6395a97d973",
+    "bytes": 295695280,
+    "purpose": "timm/coatnet_rmlp_2_rw_224.sw_in12k_ft_in1k model.safetensors (CoAtNet@224 initial_weights)"
+  },
+  "matrix_A017": {
+    "kind": "private_support",
+    "filename": "manifest.json",
+    "sha256": "77008ed6ef34f3c12a217e23cbfeb3119025c00d7b8fcd0a8ae843ae5b7cd163",
+    "bytes": 8043
+  },
+  "matrix_A016": {
+    "kind": "public_weight",
+    "filename": "model.safetensors",
+    "sha256": "91570c7af10fea0af03c1b0a49be3e4775596239890eb4193c75129b3045623e",
+    "bytes": 295695280
+  },
+  "matrix_A015": {
+    "kind": "private_support",
+    "filename": "labels.csv",
+    "sha256": "3df1e2f283048f65d6b19cd3d854f53bba39380a7509d13ed3c4fa46ca17abac",
+    "bytes": 581608
+  },
+  "matrix_A013": {
+    "kind": "historical_checkpoint",
+    "filename": "best.pt",
+    "sha256": "cea7877eb0caa5620cab0a04856092a04323df094a68a7c5e067f17f9a7b65af",
+    "bytes": 296552596
+  },
+  "gold31_A016": {
+    "kind": "public_weight",
+    "filename": "model.safetensors",
+    "sha256": "91570c7af10fea0af03c1b0a49be3e4775596239890eb4193c75129b3045623e",
+    "bytes": 295695280
+  },
+  "gold40_A203": {
+    "kind": "private_support",
+    "filename": "v3kd50_lib_pfw3_labels.csv",
+    "sha256": "04d8ef87921d89b3edac77f6a0a71ab002a5d0823a456aa64c5efae475f7ab37",
+    "bytes": 1151811,
+    "note": "RK4C_lib OAI labels (lib, PF weight x3)"
+  },
+  "gold40_A204": {
+    "kind": "private_support",
+    "filename": "v3kd50_lib_pfw3_weights.csv",
+    "sha256": "be2770e3d635f4b5ed763138327f8e6f66cf7bc9881eead1d53f9f9254bd9e7e",
+    "bytes": 811971,
+    "note": "RK4C_lib OAI cell weights"
+  },
+  "gold31_A203": {
+    "kind": "private_support",
+    "filename": "v3kd50_lib_pfw3_labels.csv",
+    "sha256": "04d8ef87921d89b3edac77f6a0a71ab002a5d0823a456aa64c5efae475f7ab37",
+    "bytes": 1151811,
+    "note": "RK4C_lib OAI labels (lib, PF weight x3)"
+  },
+  "gold31_A204": {
+    "kind": "private_support",
+    "filename": "v3kd50_lib_pfw3_weights.csv",
+    "sha256": "be2770e3d635f4b5ed763138327f8e6f66cf7bc9881eead1d53f9f9254bd9e7e",
+    "bytes": 811971,
+    "note": "RK4C_lib OAI cell weights"
+  }
+}
