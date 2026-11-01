@@ -21,6 +21,8 @@ Completed before publication:
   Membership includes all 36 models and each class's coefficients sum to one.
 - All 36 original training entries import and reach their argument parser's help
   successfully in the pinned CPU environment. No optimizer or training step ran.
+- All 36 training configurations resolve against the existing authorized local
+  input paths and pass their file/cache-manifest hash checks in prepare-only mode.
 - Source/configuration scans find no cluster/user private paths or credential
   literals. Weight headers contain only model identifiers and provenance hashes.
   DICOM transfer-syntax UIDs in decoder code are standards identifiers, not
