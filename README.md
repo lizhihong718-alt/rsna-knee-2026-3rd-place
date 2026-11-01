@@ -1,4 +1,20 @@
-# RSNA Knee 2026 — DataTech Club, 3rd place
+# RSNA Knee Abnormality Detection 2026 — DataTech Club (3rd place)
+
+**Official third-place solution release** · [Kaggle competition](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection) · [Team solution write-up](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/3rd-place-solution-rsna-knee-abnormality-detectio) · [DataTech Club](https://www.datatech.club/)
+
+## Project overview
+
+The RSNA Knee Abnormality Detection 2026 challenge asks models to predict **12 knee abnormalities from MRI**, evaluated by macro ROC-AUC. Only **58 of 4,407** training studies have expert-adjudicated image labels; most remaining studies have reports that are informative but imperfect proxies for image-based findings.
+
+Our solution combines **multimodal, finding-aware soft-label supervision** (MRI plus reports, including dedicated refinement for PF OA, Lateral OA and Synovitis), **multi-plane 2.5D MRI readers** with architecture, input-resolution and depth-context diversity, and **group-aware probability ensembling**. Reports, LLM readers and external-data labels are used for training supervision only: the deployed ensemble requires **MRI alone**.
+
+**Result:** **3rd of 6,425 teams**. The selected winning submission, **G36-Gold**, combines **36 unique checkpoints** and scored **0.968 public / 0.959 private** (Kaggle's displayed three-decimal precision). The [solution write-up](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/writeups/3rd-place-solution-rsna-knee-abnormality-detectio) explains the method, experiments and limitations in more detail.
+
+## Team and DataTech
+
+This is a joint effort by **Zhengru Li, Zhihong Li, Guoqin Gu, Mutian Hong and Bufan Li** of **[DataTech Club](https://www.datatech.club/)**, a student club at **ShanghaiTech University** focused on data science competitions, machine learning and AI exploration. We welcome discussions and research collaborations through our club website and the Kaggle solution page.
+
+This release is maintained under a team member's GitHub account; the project and solution credit belong to the full five-member team.
 
 **Released on 2026-11-01:** training/inference code, all 36 final model weights
 and the public reproduction notebook are available. The public notebook completed
@@ -10,13 +26,14 @@ were scored separately: G36-Gold scored public **0.968**, private **0.959**;
 A21GT scored public 0.968, private 0.958. A21GT was submitted later and is not
 the winning model released here. Scores use Kaggle's displayed precision.
 
-The winning submission is **57527835**, script version **361161492**:
-[original notebook](https://www.kaggle.com/code/yeeelzh/g36-gold-final-20261022-score?scriptVersionId=361161492).
-Its original frozen manifest SHA256 is
+The winning submission is **57527835**, script version **361161492**.
+The original contest notebook is retained privately because its package and
+outputs contain research metadata; its Kaggle link may not be accessible to
+public readers. **Use the public reproduction notebook linked below.**
+The original frozen manifest SHA256 is
 `07e007aeab7ce5bfdad53b52d5180f3ceba708256d0fcc0d24332f08ab487916`.
-The original notebook may remain private because its package and outputs contain
-research metadata. The clean reproduction release preserves its inference code,
-model tensors, input processing and blending.
+The clean reproduction release preserves its inference code, model tensors,
+input processing and blending.
 
 ## Release assets
 
@@ -28,6 +45,28 @@ model tensors, input processing and blending.
   architecture, input variant and per-class mixing coefficient.
 - `training/recipes.json` and `training/configs/`: the 36 matched training recipes
   and their separate, preserved source versions.
+
+## What is public and what can be reproduced?
+
+| Scope | Public release status |
+| --- | --- |
+| **Inference from final weights** | **Public and executed successfully**: all 36 checkpoints, model definitions, fixed fusion and MRI-only processing are supplied. The public Kaggle notebook ran end-to-end on T4 x2 for the three visible test studies. |
+| **Training source and configuration** | **Public**: original training entry points and 36 frozen recipes, environment and computational requirements. They resolve against externally supplied, authorized input files. |
+| **Exact training inputs and label regeneration** | **Not fully public**: private frozen soft-label snapshots, some report-derived groupings, MRI caches and authorized OAI/NDA assets are not redistributed. An end-to-end bitwise training reproduction is **not** claimed. |
+| **Validation and provenance** | Public SHA256 manifests, aggregate audits and a parity comparison against the winning submission are supplied. The *original private winning package* is an audit reference and not independently downloadable by every reader; hashes alone do not establish that third-party access exists. |
+
+### Repository guide
+
+| Path | Purpose |
+| --- | --- |
+| `infer.py`, `verify.py`, `inference/` | Public MRI inference entry point, fixed-fusion/weight checks, and preserved runtime |
+| `model_manifest.json` | Final 36 checkpoint identifiers, hashes, seeds and readouts |
+| `train.py`, `training/recipes.json`, `training/configs/` | Training entry point and matching per-model recipes |
+| `training/sources/` | Frozen historical source snapshots retained to preserve training-version fidelity; **not** 36 different projects to run separately |
+| `notebooks/reproduction.ipynb` | Public Kaggle inference reproduction notebook source |
+| `VALIDATION.md`, `validation/`, `SOURCE_PROVENANCE.json` | Public verification evidence and provenance manifests (not additional MRI datasets) |
+
+To **obtain predictions**, use `python infer.py` locally as described below, or run a **private copy** of the Kaggle notebook with `KEEP_OUTPUTS=True`. The publicly executed notebook deliberately retains only aggregate audit output, not per-study predictions or identifiers.
 
 ## Run inference
 
