@@ -63,6 +63,16 @@ the recorded inference portion was **221.55 seconds**, including **41.80 seconds
 of loading and **179.75 seconds** of scoring. Kaggle startup/artifact overhead is
 separate. No retraining or new competition submission was performed.
 
-The public notebook's final execution and publication readbacks will be recorded
-after completion. Its output policy publishes only aggregate verification;
-per-study predictions and logs remain private.
+The separate **public notebook, version 1**, also completed successfully on
+2026-11-01. All 36 models and three visible studies passed the same checks. Its
+elapsed verification/execution was **292.23 seconds**, with **222.92 seconds**
+of inference (42.39 loading, 180.53 scoring). The aggregate audit is retained in
+`validation/public_notebook_audit.json` and in the notebook's public output.
+
+The public output inventory contains only `reproduction_audit.json`; Kaggle also
+serves the notebook execution log, which contains aggregate audit information and
+platform messages. Per-study predictions, member CSVs and inference logs were
+removed before the public execution ended. The public notebook page returned
+HTTP 200 with its title in an unauthenticated readback. The public Dataset lists
+all 36 released checkpoint filenames and exact byte sizes, and the successful
+notebook checked every checkpoint SHA256 after downloading that Dataset.

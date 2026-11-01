@@ -1,8 +1,8 @@
 # RSNA Knee 2026 — DataTech Club, 3rd place
 
-**Release in progress (2026-11-01):** source code is public. The weights upload
-and fresh Kaggle notebook validation are still running/pending; the asset links
-below are the intended release locations until verification is recorded.
+**Released on 2026-11-01:** training/inference code, all 36 final model weights
+and the public reproduction notebook are available. The public notebook completed
+on T4 x2 and passed every artifact and execution check described in `VALIDATION.md`.
 
 This is the release of **G36-Gold**, the submission selected for our third-place
 result in RSNA Knee Abnormality Detection 2026. The final selected submissions
