@@ -7,7 +7,9 @@
     "readout": "ema0p999",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "rk4_original"
+    "source_batch": "rk4_original",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "Z002",
@@ -17,7 +19,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "RK4C_s2026",
@@ -27,7 +31,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold40"
+    "source_batch": "gold40",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "RK4C_s2027",
@@ -37,7 +43,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "T001",
@@ -47,7 +55,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "T002",
@@ -57,7 +67,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "T007",
@@ -67,7 +79,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "T008",
@@ -77,7 +91,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "T013",
@@ -87,7 +103,9 @@
     "readout": "raw",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold11"
+    "source_batch": "gold11",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "T019",
@@ -97,7 +115,9 @@
     "readout": "raw",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold11"
+    "source_batch": "gold11",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "T031",
@@ -107,7 +127,9 @@
     "readout": "raw",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold11"
+    "source_batch": "gold11",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "T032",
@@ -117,7 +139,9 @@
     "readout": "raw",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "original"
+    "source_batch": "original",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "M_bit224_N_k4000",
@@ -127,7 +151,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold40"
+    "source_batch": "gold40",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "M_bito384_R_none",
@@ -137,7 +163,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold40"
+    "source_batch": "gold40",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "M_bit384_N_k4000",
@@ -147,7 +175,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold40"
+    "source_batch": "gold40",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "M_bit512_R_k4000",
@@ -157,7 +187,9 @@
     "readout": "ema0p999",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "matrix"
+    "source_batch": "matrix",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "M_bit512_N_k2000",
@@ -167,7 +199,9 @@
     "readout": "ema0p999",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "matrix"
+    "source_batch": "matrix",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_cnx_224_R_k2000",
@@ -177,7 +211,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_cnx_o384_N_none",
@@ -187,7 +223,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_cnx_n384_R_k4000",
@@ -197,7 +235,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold40"
+    "source_batch": "gold40",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_cnx_512_N_kall",
@@ -207,7 +247,9 @@
     "readout": "ema0p999",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "matrix"
+    "source_batch": "matrix",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_cnx_n384_N_k2000",
@@ -217,7 +259,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold40"
+    "source_batch": "gold40",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_dino_224_N_kall",
@@ -227,7 +271,9 @@
     "readout": "ema0p999",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "matrix"
+    "source_batch": "matrix",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_dino_o384_R_k2000",
@@ -237,7 +283,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_dino_n384_N_k4000",
@@ -247,7 +295,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_dino_512_R_none",
@@ -257,7 +307,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold11"
+    "source_batch": "gold11",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_dino_o384_R_kall",
@@ -267,7 +319,9 @@
     "readout": "ema0p999",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "matrix"
+    "source_batch": "matrix",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_coat_224_R_none",
@@ -277,7 +331,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_coat_o384_N_kall",
@@ -287,7 +343,9 @@
     "readout": "ema0p999",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "matrix"
+    "source_batch": "matrix",
+    "training_gpus": 4,
+    "distributed_processes": 4
   },
   {
     "id": "FM_coat_n384_R_k2000",
@@ -297,7 +355,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_coat_512_N_k4000",
@@ -307,7 +367,9 @@
     "readout": "ema0p999",
     "gold_in_training": false,
     "epochs": 25,
-    "source_batch": "matrix"
+    "source_batch": "matrix",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "FM_coat_n384_N_none",
@@ -317,7 +379,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "Z003",
@@ -327,7 +391,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "RK4C_s2028",
@@ -337,7 +403,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "RK4C_lib_s2026",
@@ -347,7 +415,9 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold40"
+    "source_batch": "gold40",
+    "training_gpus": 1,
+    "distributed_processes": 1
   },
   {
     "id": "RK4C_lib_s2027",
@@ -357,6 +427,8 @@
     "readout": "ema0p999",
     "gold_in_training": true,
     "epochs": 25,
-    "source_batch": "gold31"
+    "source_batch": "gold31",
+    "training_gpus": 1,
+    "distributed_processes": 1
   }
 ]

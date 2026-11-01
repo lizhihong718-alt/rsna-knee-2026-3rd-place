@@ -5,6 +5,7 @@ import json
 import os
 from pathlib import Path
 import runpy
+import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parent
@@ -79,6 +80,11 @@ def main():
     sys.path[:0] = [str(runtime / 'src'), str(runtime / 'scripts'), str(runtime.parent)]
     os.environ.setdefault('OMP_NUM_THREADS', '2')
     sys.argv = [str(entry), '--config', str(config_path), '--out', str(out)]
+    processes = int(recipe.get('distributed_processes', 1))
+    if processes > 1:
+        subprocess.run([sys.executable, '-m', 'torch.distributed.run', '--standalone',
+                        '--nproc_per_node=' + str(processes), *sys.argv], check=True)
+        return
     runpy.run_path(str(entry), run_name='__main__')
 
 

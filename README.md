@@ -89,7 +89,10 @@ models, native ordinal targets and the frozen auxiliary loss scale. Training use
 H20-class GPUs; individual 25-epoch recipes take several to tens of GPU-hours
 depending on backbone, resolution and OAI exposure. The large legacy CoAtNet
 training route supports window-parallel `torch.distributed.run`; its original
-training source describes the effective batch and distributed configuration.
+recipe uses **four GPUs / four distributed processes**, batch 4 and accumulation
+2 (effective study batch 8; the ranks share the same study batch and divide its
+windows). `train.py` launches that original distributed entry automatically for
+`FM_coat_o384_N_kall`; the other 35 recipes use one process each.
 Inference resource requirements do not imply that T4 is sufficient for every
 original training recipe.
 
@@ -133,3 +136,7 @@ specified winner license. Third-party components retain their licenses.
 
 Use is for research under the applicable licenses. This release is not a clinical
 device or a claim of diagnostic safety.
+
+The Dataset's SHA-pinned `source.zip` is the frozen offline inference archive.
+Use this repository's current `train.py`, recipes and instructions for training,
+including the explicit four-process launcher for the legacy CoAtNet recipe.
