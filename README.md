@@ -56,6 +56,10 @@ reader threads. It decodes each study once and retains checkpoint-specific nativ
 preserved. Use at least 32 GB host RAM and 25 GB free working storage for weights,
 unpacking and bounded temporary caches; 64 GB RAM is a practical recommendation.
 
+Fresh release inference also passed on Kaggle's Python 3.13 / torch 2.11 CUDA
+12.8 build. The exact observed package versions and measured timing are in
+`VALIDATION.md`; the Dockerfile retains the reference training environment.
+
 The original Kaggle visible-test execution completed in **5m29s on T4 x2** for
 three visible studies, including startup. Its recorded scoring compute time was
 202.98 seconds. The original 1,300-study budget forecast was 7.38 hours including

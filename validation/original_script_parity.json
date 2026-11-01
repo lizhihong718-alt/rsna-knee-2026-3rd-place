@@ -1,0 +1,157 @@
+{
+  "original_script_version": 361161492,
+  "visible_studies": 3,
+  "models": 36,
+  "threshold_unchanged": 0.002,
+  "max_member_difference": 0.0004236497462362099,
+  "max_ensemble_difference": 3.7738775185092166e-05,
+  "all_members": [
+    {
+      "id": "Z001",
+      "max_abs_probability_difference": 9.12778062355929e-05
+    },
+    {
+      "id": "Z002",
+      "max_abs_probability_difference": 0.0002841126052514076
+    },
+    {
+      "id": "RK4C_s2026",
+      "max_abs_probability_difference": 9.80579741937937e-05
+    },
+    {
+      "id": "RK4C_s2027",
+      "max_abs_probability_difference": 0.00021563946978464532
+    },
+    {
+      "id": "T001",
+      "max_abs_probability_difference": 0.00010826539019115344
+    },
+    {
+      "id": "T002",
+      "max_abs_probability_difference": 0.00034511692012872963
+    },
+    {
+      "id": "T007",
+      "max_abs_probability_difference": 0.00027090308352561987
+    },
+    {
+      "id": "T008",
+      "max_abs_probability_difference": 0.0002088470217261884
+    },
+    {
+      "id": "T013",
+      "max_abs_probability_difference": 0.00015968194864979246
+    },
+    {
+      "id": "T019",
+      "max_abs_probability_difference": 0.00011517510323309776
+    },
+    {
+      "id": "T031",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "T032",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "M_bit224_N_k4000",
+      "max_abs_probability_difference": 0.00015018956581339116
+    },
+    {
+      "id": "M_bito384_R_none",
+      "max_abs_probability_difference": 0.00042165428394330684
+    },
+    {
+      "id": "M_bit384_N_k4000",
+      "max_abs_probability_difference": 0.00018525839614413897
+    },
+    {
+      "id": "M_bit512_R_k4000",
+      "max_abs_probability_difference": 0.00022279917043510622
+    },
+    {
+      "id": "M_bit512_N_k2000",
+      "max_abs_probability_difference": 8.750134894941475e-05
+    },
+    {
+      "id": "FM_cnx_224_R_k2000",
+      "max_abs_probability_difference": 6.089066134680465e-05
+    },
+    {
+      "id": "FM_cnx_o384_N_none",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "FM_cnx_n384_R_k4000",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "FM_cnx_512_N_kall",
+      "max_abs_probability_difference": 3.6075268128876736e-06
+    },
+    {
+      "id": "FM_cnx_n384_N_k2000",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "FM_dino_224_N_kall",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "FM_dino_o384_R_k2000",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "FM_dino_n384_N_k4000",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "FM_dino_512_R_none",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "FM_dino_o384_R_kall",
+      "max_abs_probability_difference": 0.0
+    },
+    {
+      "id": "FM_coat_224_R_none",
+      "max_abs_probability_difference": 8.490344573200415e-05
+    },
+    {
+      "id": "FM_coat_o384_N_kall",
+      "max_abs_probability_difference": 0.00019988894658160006
+    },
+    {
+      "id": "FM_coat_n384_R_k2000",
+      "max_abs_probability_difference": 7.679475936783753e-05
+    },
+    {
+      "id": "FM_coat_512_N_k4000",
+      "max_abs_probability_difference": 9.582828227305829e-05
+    },
+    {
+      "id": "FM_coat_n384_N_none",
+      "max_abs_probability_difference": 4.532272254226255e-05
+    },
+    {
+      "id": "Z003",
+      "max_abs_probability_difference": 0.00019110365726082712
+    },
+    {
+      "id": "RK4C_s2028",
+      "max_abs_probability_difference": 0.00021023518269025487
+    },
+    {
+      "id": "RK4C_lib_s2026",
+      "max_abs_probability_difference": 0.000125460003954192
+    },
+    {
+      "id": "RK4C_lib_s2027",
+      "max_abs_probability_difference": 0.0004236497462362099
+    }
+  ],
+  "passed": true,
+  "no_new_competition_submission": true,
+  "validation_run": "2026-11-01 T4 x2, 36 models, three visible studies"
+}
